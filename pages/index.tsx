@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             <FaInstagram className='mt-1 mr-2'/> Instagram 
           </a>
           <a
-            href="#" target='_blank' 
+            href="https://api.whatsapp.com/send?phone=5511937528427" target='_blank' 
             className="mt-6 w-96 rounded text-2xl font-bold bg-white p-3 flex text-blue-800 hover:text-blue-900 hover:bg-gray-100"
           >
             <FaWhatsapp className='mt-1 mr-2'/> WhatsApp 
