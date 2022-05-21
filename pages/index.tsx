@@ -1,15 +1,10 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import { FaInstagram, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 import  { GiMagnifyingGlass } from 'react-icons/gi'
 
 const Home: NextPage = () => {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-blue-800">
-      <Head>
-        <title>Cicinho - Pode confiar!</title>
-        <link rel="icon"/>
-      </Head>
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center ">
         <img className='w-48 m-4 rounded-full' src='/cicinho.png' />
         <h1 className='text-xl font-bold text-white mb-2'>Vereador</h1>
